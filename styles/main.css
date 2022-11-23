@@ -42,9 +42,10 @@ h1,
 }
 
 .container .row .left-wrap .left {
-  background-image: url(../img/247.jpg);
+  background-image: url(https://cdn.discordapp.com/attachments/977227494652514304/1044334680796844082/northbanner.png);
   background-repeat: no-repeat;
-  background-position: 50% 100%;
+  background-position: 10% 100%;
+  background-size: cover;
   height: 100vh;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -52,6 +53,17 @@ h1,
   -webkit-clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);
 }
+
+.container .row .left-wrap .left span.shadow {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(10, 8, 28, .6);
+  z-index: -1;
+}
+
 
 @media screen and (max-width: 762px) {
   .container .row .left-wrap .left {
